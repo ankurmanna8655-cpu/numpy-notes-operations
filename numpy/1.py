@@ -27,4 +27,25 @@ start = time.time()
 num1 = np.arange(1000000)*2
 print("Numpy operation time is \n", time.time() - start)
 
+#datatype
+new_arr = np.array([1,2,3] , dtype = bool)
+print("Datatype array \n",new_arr)
 
+#reshape array
+reshape = np.arange(1,11).reshape(2,5)
+print("Respahed array \n",reshape)
+
+#linspace - difference between two space will be similar
+linspace = np.linspace(-10,10,10)
+print("Linspace array \n",linspace)
+
+#identity
+identity_matrix = np.identity(2)
+print("Identity matrix \n",identity_matrix)
+
+#extra use 
+extra = np.arange(8,dtype=float).reshape(2,4)
+print("N1 \n",extra)
+
+extra1 = np.arange(12).reshape(2,3,2)
+print("N2 \n",extra1)

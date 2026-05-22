@@ -72,4 +72,15 @@ my_arr = np.array([1,2,3,4,5,6])
 nt = np.delete(my_arr,2)
 print("Array after deletion ", nt)
 
+ 
+a1 = np.arange(12).reshape(3,4)
+a2 = np.arange(12,24).reshape(3,4)
+#realational operation
+condition = a1 > 5
+print("relational array \n",condition)
+
+#multiplication
+print("Multiplication by scalar \n",a1*2)
+
+print("Two array multiplication \n",a1*a2)
 
