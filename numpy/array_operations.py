@@ -20,10 +20,10 @@ unsorted = np.array([3,6,1,5,8,3,5,9])
 print("Sorted array is \n", np.sort(unsorted))
 
 arr_2d_unsorted = np.array([[1,2],[5,6],[9,10]])
-print("Sorted 2D array by column \n", np.sort(arr_2d_unsorted , axis=0))
+print("Sorted 2D array by column \n", np.sort(arr_2d_unsorted , axis=0)) #0->means column
 
 arr_2d_unsorted1 = np.array([[2,1],[5,4],[11,5]])
-print("Sorted 2D array by row \n", np.sort(arr_2d_unsorted1 , axis=1))
+print("Sorted 2D array by row \n", np.sort(arr_2d_unsorted1 , axis=1)) #1->means row
 
 #filter
 numbers = np.array([1,2,3,4,5,6,7,8,9,10])
